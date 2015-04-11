@@ -5,6 +5,7 @@ import android.graphics.Bitmap.Config;
 import android.graphics.BitmapFactory;
 import android.graphics.BitmapFactory.Options;
 
+
 public class BitmapUtil {
 	public static class Size {
 		public int width;
@@ -17,8 +18,10 @@ public class BitmapUtil {
 	}
 
 	public static Bitmap getImage(String absPath) {
-		Bitmap bitmap = BitmapFactory.decodeFile(absPath);
-		return bitmap;
+		Bitmap bitmap1 = BitmapFactory.decodeFile(absPath);
+        Bitmap bitmap2 = Bitmap.createScaledBitmap(bitmap1, 10, 30, true);
+
+		return bitmap2;
 	}
 
 	public static Size getImageSize(String absPath) {
@@ -32,7 +35,7 @@ public class BitmapUtil {
 
 	public static Bitmap blur(Bitmap bitmap) {
 		int iterations = 1;
-		int radius = 8;
+		int radius = 20;
 		int width = bitmap.getWidth();
 		int height = bitmap.getHeight();
 		int[] inPixels = new int[width * height];

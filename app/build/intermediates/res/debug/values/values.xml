@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Ejay/Work/eztofu_Android/ProMosaic-master/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Ejay/Work/eztofu_Android/ProMosaic-master/uStyle/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="black">#FF000000</color>
     <color name="blue">#FF0000FF</color>
@@ -19,14 +19,14 @@
     <color name="title">#FF29B5EA</color>
     <color name="transparent">#00000000</color>
     <color name="white">#FFFFFFFF</color>
-    <!-- From: file:/C:/Ejay/Work/eztofu_Android/ProMosaic-master/app/src/main/res/values/drawables.xml -->
+    <!-- From: file:/C:/Ejay/Work/eztofu_Android/ProMosaic-master/uStyle/app/src/main/res/values/drawables.xml -->
     <eat-comment/>
     <drawable name="item_selected">#600000FF</drawable>
     <drawable name="menu_divider">#ff191b1c</drawable>
     <drawable name="menu_normal">#f22e3132</drawable>
     <drawable name="menu_pressed">#26000000</drawable>
     <drawable name="transparent">#00000000</drawable>
-    <!-- From: file:/C:/Ejay/Work/eztofu_Android/ProMosaic-master/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Ejay/Work/eztofu_Android/ProMosaic-master/uStyle/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="about">關於</string>
     <string name="app_name">uStyle</string>
@@ -45,7 +45,7 @@
     <string name="mode_path">跟随手指</string>
     <string name="qq">QQ: 752481163</string>
     <string name="save">保存</string>
-    <!-- From: file:/C:/Ejay/Work/eztofu_Android/ProMosaic-master/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Ejay/Work/eztofu_Android/ProMosaic-master/uStyle/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="NoTitle" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>

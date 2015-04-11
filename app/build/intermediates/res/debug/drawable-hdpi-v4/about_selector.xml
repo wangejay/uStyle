@@ -5,4 +5,4 @@
     <item android:drawable="@color/grey_4" android:state_pressed="true"></item>
     <item android:drawable="@color/transparent"></item>
 
-</selector><!-- From: file:/C:/Ejay/Work/eztofu_Android/ProMosaic-master/app/src/main/res/drawable-hdpi/about_selector.xml -->
+</selector><!-- From: file:/C:/Ejay/Work/eztofu_Android/ProMosaic-master/uStyle/app/src/main/res/drawable-hdpi/about_selector.xml -->

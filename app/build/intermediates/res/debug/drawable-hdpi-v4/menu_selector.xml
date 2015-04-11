@@ -4,4 +4,4 @@
     <item android:drawable="@drawable/menu_pressed" android:state_pressed="true"></item>
     <item android:drawable="@drawable/menu_normal"></item>
 
-</selector><!-- From: file:/C:/Ejay/Work/eztofu_Android/ProMosaic-master/app/src/main/res/drawable-hdpi/menu_selector.xml -->
+</selector><!-- From: file:/C:/Ejay/Work/eztofu_Android/ProMosaic-master/uStyle/app/src/main/res/drawable-hdpi/menu_selector.xml -->

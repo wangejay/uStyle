@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Ejay\Work\eztofu_Android\ProMosaic-master\app\src\main\assets"/></dataSet><dataSet config="debug"><source path="C:\Ejay\Work\eztofu_Android\ProMosaic-master\app\src\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Ejay\Work\eztofu_Android\ProMosaic-master\uStyle\app\src\main\assets"/></dataSet><dataSet config="debug"><source path="C:\Ejay\Work\eztofu_Android\ProMosaic-master\uStyle\app\src\debug\assets"/></dataSet></merger>

@@ -11,6 +11,7 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;
+import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.CornerPathEffect;
@@ -25,6 +26,7 @@ import android.util.Log;
 import android.util.TypedValue;
 import android.view.MotionEvent;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 public class MosaicView extends ViewGroup {
 	public static final String TAG = "MosaicView";
@@ -41,7 +43,7 @@ public class MosaicView extends ViewGroup {
 	private static final int INNER_PADDING = 6;
 
 	// default grid width, in dip pixels
-	private static final int GRID_WIDTH = 5;
+	private static final int GRID_WIDTH = 10;
 
 	// default grid width, in dip pixels
 	private static final int PATH_WIDTH = 20;
@@ -75,6 +77,7 @@ public class MosaicView extends ViewGroup {
 	private Mode mMode;
 
 	private Rect mImageRect;
+    private ImageView mImageView;
 
 	private Paint mPaint;
 
@@ -155,7 +158,7 @@ public class MosaicView extends ViewGroup {
 		mImageWidth = size.width;
 		mImageHeight = size.height;
 
-		bmBaseLayer = BitmapUtil.getImage(absPath);
+        bmBaseLayer= BitmapFactory.decodeFile(absPath);
 
 		bmCoverLayer = getCoverLayer();
 		bmMosaicLayer = null;
